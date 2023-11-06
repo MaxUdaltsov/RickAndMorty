@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Characters Table View Controller-->
         <scene sceneID="lkZ-kI-6BS">
             <objects>
-                <tableViewController id="CWW-dB-upf" sceneMemberID="viewController">
+                <tableViewController id="CWW-dB-upf" customClass="CharactersTableViewController" customModule="RickAndMorty" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="EyO-jj-vTa">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,10 +65,10 @@
             </objects>
             <point key="canvasLocation" x="-277.09923664122135" y="-28.169014084507044"/>
         </scene>
-        <!--View Controller-->
+        <!--Chacater Details View Controller-->
         <scene sceneID="J0d-uL-O4X">
             <objects>
-                <viewController id="r5R-GF-ScJ" sceneMemberID="viewController">
+                <viewController id="r5R-GF-ScJ" customClass="ChacaterDetailsViewController" customModule="RickAndMorty" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Tq-ae-xvP">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="481.67938931297709" y="-28.169014084507044"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Episodes View Controller-->
         <scene sceneID="eWJ-J5-pkd">
             <objects>
-                <tableViewController id="zJl-p7-QuR" sceneMemberID="viewController">
+                <tableViewController id="zJl-p7-QuR" customClass="EpisodesViewController" customModule="RickAndMorty" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="C40-GQ-S28">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -146,10 +146,10 @@
             </objects>
             <point key="canvasLocation" x="1887.7862595419847" y="-28.169014084507044"/>
         </scene>
-        <!--View Controller-->
+        <!--Episode Details View Controller-->
         <scene sceneID="EdM-PA-6IA">
             <objects>
-                <viewController id="WX2-k7-JrK" sceneMemberID="viewController">
+                <viewController id="WX2-k7-JrK" customClass="EpisodeDetailsViewController" customModule="RickAndMorty" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vWT-6a-vEI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -229,10 +229,10 @@
             </objects>
             <point key="canvasLocation" x="2655.7251908396947" y="-28.169014084507044"/>
         </scene>
-        <!--View Controller-->
+        <!--Episode Details View Controller-->
         <scene sceneID="4TJ-rX-OTF">
             <objects>
-                <viewController id="Shl-8A-Ec9" sceneMemberID="viewController">
+                <viewController id="Shl-8A-Ec9" customClass="EpisodeDetailsViewController" customModule="RickAndMorty" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0cp-1M-Ggq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

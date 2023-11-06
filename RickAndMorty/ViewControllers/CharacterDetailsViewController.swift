@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ChacaterDetailsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
